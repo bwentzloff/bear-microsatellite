@@ -1,0 +1,101 @@
+# ==========================================
+# Local configuration
+# ==========================================
+
+# Keep the example configuration in Git.
+# Ignore user-specific configuration.
+config/project_config.sh
+
+# ==========================================
+# Biological data and large files
+# ==========================================
+
+# Raw sequencing and reference data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fasta
+*.fasta.gz
+*.fa
+*.fa.gz
+*.fna
+*.fna.gz
+*.bam
+*.sam
+*.cram
+*.vcf
+*.vcf.gz
+
+# BLAST databases
+*.nhr
+*.nin
+*.nsq
+*.ndb
+*.not
+*.ntf
+*.nto
+*.nto
+*.nal
+*.pdb
+*.phr
+*.pin
+*.pot
+*.psq
+*.ptf
+*.pto
+
+# ==========================================
+# Generated analysis outputs
+# ==========================================
+
+# BLAST output files
+*.blast
+*.blastn
+*.blast.tsv
+*.blast.txt
+
+# Intermediate files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Logs and job outputs
+# ==========================================
+
+logs/
+*.log
+*.out
+*.err
+slurm-*.out
+
+# ==========================================
+# Operating system / editor files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==========================================
+# Python artifacts (if used later)
+# ==========================================
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ==========================================
+# R artifacts (if used later)
+# ==========================================
+
+.Rhistory
+.RData
+.Ruserdata
