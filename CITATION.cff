@@ -1,0 +1,110 @@
+
+cff-version: 1.2.0
+message: >-
+  If you use this project or its workflow in your research,
+  please cite the relevant references listed below.
+title: "Brown Bear Microsatellite Identification"
+version: 0.1.0
+
+keywords:
+  - brown bear
+  - Ursus arctos
+  - microsatellites
+  - short tandem repeats
+  - STR
+  - BLAST
+  - bioinformatics
+  - conservation genetics
+
+references:
+  - type: article
+    authors:
+      - family-names: Salih
+        given-names: Dalya
+      - family-names: Armstrong
+        given-names: Ellie E.
+      - family-names: Robbins
+        given-names: Charles T.
+      - family-names: Waits
+        given-names: Lisette P.
+      - family-names: Kelley
+        given-names: Joanna L.
+    title: >-
+      Bridging the gap between legacy polymerase chain
+      reaction-based microsatellite data with high-throughput
+      sequencing data for conservation genomics
+    journal: Journal of Heredity
+    year: 2025
+    volume: "00"
+    pages: 1--11
+    doi: 10.1093/jhered/esaf090
+
+  - type: article
+    authors:
+      - family-names: Armstrong
+        given-names: Ellie E.
+      - family-names: Perry
+        given-names: B. W.
+      - family-names: Huang
+        given-names: Y.
+      - family-names: Garimella
+        given-names: K. V.
+      - family-names: Jansen
+        given-names: H. T.
+      - family-names: Robbins
+        given-names: C. T.
+      - family-names: Tucker
+        given-names: N. R.
+      - family-names: Kelley
+        given-names: J. L.
+    title: >-
+      A beary good genome: haplotype-resolved,
+      chromosome-level assembly of the brown bear
+      (Ursus arctos)
+    journal: Genome Biology and Evolution
+    year: 2022
+    volume: "14"
+    article-number: evac125
+    doi: 10.1093/gbe/evac125
+
+  - type: article
+    authors:
+      - family-names: Altschul
+        given-names: Stephen F.
+      - family-names: Gish
+        given-names: Warren
+      - family-names: Miller
+        given-names: Webb
+      - family-names: Myers
+        given-names: Eugene W.
+      - family-names: Lipman
+        given-names: David J.
+    title: Basic local alignment search tool
+    journal: Journal of Molecular Biology
+    year: 1990
+    volume: "215"
+    pages: 403--410
+    doi: 10.1016/S0022-2836(05)80360-2
+
+  - type: article
+    authors:
+      - family-names: Camacho
+        given-names: Christiam
+      - family-names: Coulouris
+        given-names: George
+      - family-names: Avagyan
+        given-names: Vahram
+      - family-names: Ma
+        given-names: Ning
+      - family-names: Papadopoulos
+        given-names: Jason
+      - family-names: Bealer
+        given-names: Kevin
+      - family-names: Madden
+        given-names: Thomas L.
+    title: "BLAST+: architecture and applications"
+    journal: BMC Bioinformatics
+    year: 2009
+    volume: "10"
+    article-number: "421"
+    doi: 10.1186/1471-2105-10-421

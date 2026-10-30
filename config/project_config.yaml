@@ -1,0 +1,22 @@
+# config/project_config.sh
+
+# Project locations
+PROJECT_DIR="/project/$USER/bear-microsatellite"
+SCRATCH_DIR="/scratch/$USER/bear-microsatellite"
+
+# Input files
+REFERENCE="${PROJECT_DIR}/data/reference/bear_genome.fa"
+QUERIES="${PROJECT_DIR}/data/raw/primers_combined.fasta"
+
+# Output locations
+RESULTS_DIR="${PROJECT_DIR}/results/blast"
+BLAST_DB_DIR="${SCRATCH_DIR}/blast_db"
+
+# Software
+BLAST_VERSION="2.16.0"
+
+# BLAST parameters
+WORD_SIZE=7
+EVALUE=100
+MAX_TARGET_SEQS=5
+NUM_THREADS=4
