@@ -13,7 +13,7 @@ set -euo pipefail
 module load ncbi-blast/2.16.0
 
 # Project location
-export PROJECT_DIR="/project/lab/bear-microsatellite"
+export PROJECT_DIR="/project/$USER/bear-microsatellite"
 
 # Execute workflow
 bash "${PROJECT_DIR}/scripts/02_run_blast.sh"

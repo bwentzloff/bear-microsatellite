@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # Project configuration
-PROJECT_DIR="${PROJECT_DIR:-/project/lab/bear-microsatellite}"
+PROJECT_DIR="${PROJECT_DIR:-/project/$USER/bear-microsatellite}"
 SCRATCH_DIR="${SCRATCH_DIR:-${TMPDIR:-/scratch/$USER}/bear-microsatellite}"
 
 REFERENCE="${PROJECT_DIR}/data/reference/bear_genome.fa"
